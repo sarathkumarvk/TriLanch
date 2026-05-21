@@ -1,9 +1,11 @@
 name: test
+on: [push]
 
 jobs:
 run-name: Run Name - Test01
-name: Action started
-run-on: ubuntu-latets
-steps:
--name: Say Hello
-run: echo "Hello!"
+  name: Action started
+  run-on: ubuntu-latets
+  steps:
+    -name: Say Hello
+     run: echo "Hello!"
+  
