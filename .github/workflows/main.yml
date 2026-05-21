@@ -2,10 +2,9 @@ name: test
 on: [push]
 
 jobs:
-run-name: Run Name - Test01
-  name: Action started
-  run-on: ubuntu-latets
-  steps:
+RunName-Test01:
+run-on: ubuntu-latest
+steps:
     -name: Say Hello
-     run: echo "Hello!"
+    -run: echo "Hello!"
   
